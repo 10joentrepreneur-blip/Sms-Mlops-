@@ -1,0 +1,122 @@
+﻿no,order,turn,predict,label,correct
+1.0,"User: 주문합니다!
+Agent: 어떤 상품을 주문하시겠어요? 상품 번호와 수량을 알려주세요. 예를 들어 ""1번 2개"" 와 같이 말씀해주세요.
+User: 이름: 강지성
+Agent: 주문자 성함이 강지성 님이시군요. 어떤 상품을 원하시는지, 수량과 함께 알려주세요. 그리고 연락처와 주소, 배송 희망 날짜도 알려주시면 주문을 도와드릴 수 있습니다.
+User: 연락처: 010-3947-6286
+Agent: 네, 연락처는 010-3947-6286 이시군요. 어떤 상품을 원하시는지, 수량과 함께 알려주세요. 그리고 주소와 배송 희망 날짜도 알려주시면 주문을 도와드릴 수 있습니다.
+User: 주소: 강원특별자치도 강릉시 신산로 301
+Agent: 강원특별자치도 강릉시 신산로 301 로 배송되는 건이군요. 혹시 건물 번호나 상세 주소를 더 알려주실 수 있을까요? 예를 들어 몇 동 몇 호인지 알려주시면 감사하겠습니다. 그리고 어떤 상품을 몇 개 주문하시고 싶으신가요? 마지막으로 배송 희망 날짜도 알려주세요.
+User: 상품: 1번 2개, 2번(치즈위주) 1개
+Agent: 주문하신 상품은 1번 김(도시락김) 2개, 2번 베이글 6종 세트 (플레인+믹스/치즈위주) 1개입니다. 배송 주소는 강원특별자치도 강릉시 신산로 301 이고, 고객님 성함은 강지성, 연락처는 010-3947-6286 입니다. 혹시 상세 주소 (예: 건물 번호, 동/호수)를 알려주시겠어요? 그리고 배송 희망 날짜는 언제로 하시겠습니까?
+User: 입금자명: 신태찬
+Agent: 입금자명은 신태찬 님이시군요. 먼저, 상세 주소와 배송 희망 날짜를 알려주시면 감사하겠습니다.
+User: 배송일: 오늘
+Agent: 오늘이 2025년 12월 22일이니, 오늘 배송을 원하시는군요. 죄송하지만, 수령 기간이 7/20(일)~7/23(수)으로 지정되어 있어서 오늘 배송은 어렵습니다. 7월 20일(일)부터 7월 23일(수) 사이에 원하시는 날짜를 선택해주시겠어요? 그리고 상세 주소도 알려주시면 감사하겠습니다.",7,"{
+  ""items"": [
+    {
+      ""quantity"": 2,
+      ""product_name"": ""1번 김(도시락김)""
+    },
+    {
+      ""quantity"": 1,
+      ""product_name"": ""2번 베이글 6종 세트 (플레인+믹스/치즈위주)""
+    }
+  ],
+  ""customer_name"": ""강지성"",
+  ""contact_number"": ""010-3947-6286"",
+  ""delivery_address"": ""강원특별자치도 강릉시 신산로 301"",
+  ""desired_delivery_date"": null,
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 52600
+}","{
+  ""items"": [
+    {
+      ""quantity"": 2,
+      ""unit"": ""개"",
+      ""product_name"": ""1번 김(도시락김) 32봉""
+    },
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""2번 베이글 6종 세트 (플레인+믹스/치즈위주)""
+    }
+  ],
+  ""customer_name"": ""강지성"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""강원특별자치도 강릉시 신산로 301"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 45,800
+}",0
+2.0,"User: 빼빼로데이 선물용으로 빼빼로 15개 구매하려고 합니다. 혹시 선물포장/봉투도 가능한가요?
+Agent: 빼빼로 15개 주문 접수하겠습니다. 선물 포장이나 봉투에 대한 특별한 언급은 없으므로, 이 부분은 추후에 다시 확인하도록 하겠습니다. 혹시 성함과 연락처, 배송 주소, 원하시는 배송 날짜를 알려주실 수 있을까요?
+User: 이름은 강지성이고, 주소는 강원특별자치도 강릉시 신산로 30. 010-1234-5678로 연락 주시면 됩니다. 배송은 오늘 부탁드립니다
+Agent: Error: An error occurred during processing.",2,"{
+  ""items"": [
+    {
+      ""quantity"": 15,
+      ""unit"": ""개"",
+      ""product_name"": ""빼빼로""
+    }
+  ],
+  ""customer_name"": ""강지성"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""강원특별자치도 강릉시 신산로 30"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 0
+}","{
+  ""items"": [
+    {
+      ""quantity"": 15,
+      ""unit"": ""개"",
+      ""product_name"": ""빼빼로""
+    },
+  ],
+  ""customer_name"": ""강지성"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""강원특별자치도 강릉시 신산로 30"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 22500
+}",0
+3.0,"User: 농산코너 담당자님, 박진호입니다.
+Agent: 안녕하세요, 박진호님. 무엇을 도와드릴까요? 혹시 콜라비 주문에 관심 있으신가요?
+User: 제주시 연동 12-3에서 ‘진호분식’을 운영하고 있으며, 연락처는 010-5678-9012입니다.
+Agent: 진호분식 박진호님, 안녕하세요. 주소와 연락처를 알려주셔서 감사합니다. 혹시 배송받고 싶으신 날짜가 있으신가요? 그리고 어떤 상품을 주문하시겠어요?
+User: 매장에서 사용할 콜라비 40개 주문드리오니, 오늘 오전 9시~10시 사이 납품 가능 여부와 세금계산서 발행 가능하시면 회신 부탁드립니다.
+Agent: Error: An error occurred during processing.",3,"{
+  ""items"": [
+    {
+      ""quantity"": 40,
+      ""product_name"": ""콜라비(개당/국내산)""
+    }
+  ],
+  ""customer_name"": ""박진호"",
+  ""contact_number"": ""010-5678-9012"",
+  ""delivery_address"": ""제주시 연동 12-3"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 0
+}","{
+  ""items"": [
+    {
+      ""quantity"": 40,
+      ""unit"": ""개"",
+      ""product_name"": ""콜라비""
+    },
+  ],
+  ""customer_name"": ""박진호"",
+  ""contact_number"": ""010-5678-9012"",
+  ""delivery_address"": ""제주시 연동 12-3"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""오전 9시~10시 사이 납품 가능 여부와 세금계산서 발행여부"",
+  ""payment_info"": null,
+  ""expected_amount"": 36000
+}",0
