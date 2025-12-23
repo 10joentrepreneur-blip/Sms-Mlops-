@@ -1,0 +1,125 @@
+﻿no,order,turn,predict,label,correct
+1,"User: 주문합니다!
+Agent: 어떤 상품을 얼마나 주문하시겠어요?
+User: 이름: 강지성
+Agent: 주문자 성함이 강지성 님이시군요. 어떤 상품을 얼마나 주문하시겠어요? 주소와 연락처도 알려주세요.
+User: 연락처: 010-3947-6286
+Agent: 연락처가 010-3947-6286 이시군요. 어떤 상품을 얼마나 주문하시겠어요? 주소도 알려주세요.
+User: 주소: 강원특별자치도 강릉시 신산로 301
+Agent: 주소는 강원특별자치도 강릉시 신산로 301이시군요. 어떤 상품을 얼마나 주문하시겠어요?
+User: 상품: 1번 2개, 2번(치즈위주) 1개
+Agent: 1번 김(도시락김) 2개, 2번 베이글 6종 세트 (플레인+믹스/치즈위주) 1개 맞으신가요? 혹시 수령 원하시는 날짜 있으신가요? 7월 20일(일) ~ 7월 23일(수) 사이에 가능합니다.
+User: 입금자명: 신태찬
+Agent: 입금자명은 신태찬 님이시군요. 7월 20일(일) ~ 7월 23일(수) 중 희망하시는 수령 날짜 있으신가요?
+User: 배송일: 오늘
+Agent: Error: An error occurred during processing.",7,"{
+  ""items"": [
+    {
+      ""quantity"": 2,
+      ""unit"": ""개"",
+      ""product_name"": ""1번 김(도시락김)""
+    },
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""2번 베이글 6종 세트 (플레인+믹스/치즈위주)""
+    }
+  ],
+  ""customer_name"": ""강지성"",
+  ""contact_number"": ""010-3947-6286"",
+  ""delivery_address"": ""강원특별자치도 강릉시 신산로 301"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 52600
+}","{
+  ""items"": [
+    {
+      ""quantity"": 2,
+      ""unit"": ""개"",
+      ""product_name"": ""1번 김(도시락김) 32봉""
+    },
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""2번 베이글 6종 세트 (플레인+믹스/치즈위주)""
+    }
+  ],
+  ""customer_name"": ""강지성"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""강원특별자치도 강릉시 신산로 301"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 45,800
+}",0
+2,"User: 빼빼로데이 선물용으로 빼빼로 15개 구매하려고 합니다. 혹시 선물포장/봉투도 가능한가요?
+Agent: 선물 포장 및 봉투에 대한 정보는 현재 없습니다. 빼빼로 15개 주문을 도와드릴까요? 선물 포장이나 봉투에 대한 추가 정보가 필요하시면 확인해 드릴 수 있습니다.
+User: 이름은 강지성이고, 주소는 강원특별자치도 강릉시 신산로 30. 010-1234-5678로 연락 주시면 됩니다. 배송은 오늘 부탁드립니다
+Agent: 주문 정보는 다음과 같습니다. 빼빼로 15개, 배송 주소는 강원특별자치도 강릉시 신산로 30, 연락처는 010-1234-5678, 배송 희망 날짜는 오늘입니다. 맞습니까?",2,"{
+  ""items"": [
+    {
+      ""quantity"": 15,
+      ""unit"": ""개"",
+      ""product_name"": ""빼빼로""
+    }
+  ],
+  ""customer_name"": ""강지성"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""강원특별자치도 강릉시 신산로 30"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 22500
+}","{
+  ""items"": [
+    {
+      ""quantity"": 15,
+      ""unit"": ""개"",
+      ""product_name"": ""빼빼로""
+    },
+  ],
+  ""customer_name"": ""강지성"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""강원특별자치도 강릉시 신산로 301"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 22500
+}",0
+3,"User: 농산코너 담당자님, 박진호입니다.
+Agent: 안녕하세요, 박진호님. 무엇을 도와드릴까요?
+User: 제주시 연동 12-3에서 ‘진호분식’을 운영하고 있으며, 연락처는 010-5678-9012입니다.
+Agent: 알겠습니다. 고객님 성함, 연락처, 주소를 알려주셨습니다. 혹시 주문하시려는 상품이 있으신가요?
+User: 매장에서 사용할 콜라비 40개 주문드리오니, 오늘 오전 9시~10시 사이 납품 가능 여부와 세금계산서 발행 가능하시면 회신 부탁드립니다.
+Agent: 오늘 오전 9시에서 10시 사이에 배송이 가능한지 확인해보겠습니다. 세금계산서 발행도 가능합니다. 고객님, 현재 총 주문 금액은 36,000원입니다. 주소지에 '진호분식'으로 배송해도 될까요?",3,"{
+  ""items"": [
+    {
+      ""quantity"": 40,
+      ""unit"": ""개"",
+      ""product_name"": ""콜라비(개당/국내산)""
+    }
+  ],
+  ""customer_name"": ""박진호"",
+  ""contact_number"": ""010-5678-9012"",
+  ""delivery_address"": ""제주시 연동 12-3"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 36000
+}","{
+  ""items"": [
+    {
+      ""quantity"": 40,
+      ""unit"": ""개"",
+      ""product_name"": ""콜라비""
+    },
+  ],
+  ""customer_name"": ""박진호"",
+  ""contact_number"": ""010-5678-9012"",
+  ""delivery_address"": ""제주시 연동 12-3"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""오전 9시~10시 사이 납품 가능 여부와 세금계산서 발행여부"",
+  ""payment_info"": null,
+  ""expected_amount"": 36000
+}",0

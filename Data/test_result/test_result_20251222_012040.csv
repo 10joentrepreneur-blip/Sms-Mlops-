@@ -1,0 +1,100 @@
+﻿no,order,turn,predict,label,correct
+1,"User: 상품명: 서민갑부 우거지 감자탕 1개
+Agent: 죄송합니다. 과일만 판매하고 있습니다.
+User: 성함: 김기봉
+Agent: 성함을 알려주셔서 감사합니다. 혹시 연락처, 배송 주소, 주문 상품, 희망 배송일도 알려주시겠어요?
+User: 주소: 제주도 제주시 첨단로 123 101호
+Agent: 주소를 알려주셔서 감사합니다. 주문 상품, 연락처, 희망 배송일도 알려주시겠어요?
+User: 핸드폰 번호: 010-1234-5678
+Agent: 연락처를 알려주셔서 감사합니다. 주문 상품과 희망 배송일을 알려주시겠어요?
+User: 금액: 12,000원
+Agent: 주문하시려는 상품을 알려주시겠어요? 저희 과일 품목은 [사과] 부사, [배] 신고배, [감귤] 노지감귤, [한라봉], [딸기] 설향이 있습니다.
+User: 입금주명: 김기봉
+Agent: 김기봉님, 입금자명은 확인했습니다. 혹시 주문하시려는 상품이 있으신가요? 어떤 과일을 원하시는지 알려주시면 감사하겠습니다. 예를 들어, [사과] 부사, [배] 신고배, [감귤] 노지감귤, [한라봉], [딸기] 설향 중에서 선택해주세요.
+User: 배송일: 오늘
+Agent: 오늘이 2025년 12월 22일이니, 2025-12-22로 배송일을 지정해도 될까요? 그리고 어떤 상품을 주문하시고 싶으신가요?",7,"{
+  ""items"": [],
+  ""customer_name"": ""김기봉"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""제주도 제주시 첨단로 123 101호"",
+  ""desired_delivery_date"": null,
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 0
+}","""items"": [
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""서민갑부 우거지 감자탕""
+    }
+  ],
+  ""customer_name"": ""김기봉"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""제주도 제주시 첨단로 123 101호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""expected_amount"": 26000",0
+2,"User: 주문합니다!
+Agent: 어떤 상품을 주문하시겠어요? 품목과 수량을 말씀해주세요.
+User: 이름: 윤하연
+Agent: 주문자 성함이 윤하연 님이시군요. 연락처와 배송 주소, 희망 배송일도 알려주세요. 어떤 상품을 몇 개 주문하시고 싶으신가요?
+User: 연락처: 010-7628-7421
+Agent: 연락처는 010-7628-7421로 저장되었습니다. 배송 주소와 희망 배송일, 주문하실 상품을 알려주세요.
+User: 주소: 부산광역시 남구 동문로 245 370호
+Agent: 배송 주소는 부산광역시 남구 동문로 245 370호로 저장되었습니다. 혹시 상세 주소가 맞으신가요? 그리고 희망 배송일과 주문하실 상품을 알려주세요.
+User: 상품: 1번(소형세트) 1개
+Agent: 1번(소형세트)가 어떤 상품인가요? 사과, 배, 귤, 한라봉, 딸기 중에서 골라주세요.
+User: 입금자명: 윤하*
+Agent: 입금자명은 현재 주문에 필요한 정보가 아닙니다. 배송을 위해 어떤 상품을 주문하시고 싶으신지 알려주시겠어요? 사과, 배, 귤, 한라봉, 딸기 중에서 골라주세요.
+User: 배송일: 12월 22일
+Agent: 12월 22일 배송으로 하겠습니다. 어떤 상품을 주문하시겠어요? 사과, 배, 귤, 한라봉, 딸기 중에서 골라주세요.",7,"{
+  ""items"": [],
+  ""customer_name"": null,
+  ""contact_number"": null,
+  ""delivery_address"": null,
+  ""desired_delivery_date"": null,
+  ""special_requests"": null,
+  ""payment_info"": null
+}","""items"": [
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""락앤락 스타일 밀폐용기 8종 (소형세트)""
+    }
+  ],
+  ""customer_name"": ""윤하연"",
+  ""contact_number"": ""010-7628-7421"",
+  ""delivery_address"": ""부산광역시 남구 동문로 245 370호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""expected_amount"": 29600",0
+3,"User: 안녕하세요, 김수진입니다.
+Agent: Error: An error occurred during processing.
+User: 주소는 서귀포시 중문동 123-4, 연락처는 010-1234-5678입니다.
+Agent: Error: An error occurred during processing.
+User: 톱밥꽃게 3kg 내외 1박스 주문합니다.
+Agent: 죄송합니다, 톱밥꽃게는 판매하고 있지 않습니다. 저희는 과일만 판매하고 있습니다. 현재 판매 중인 상품은 사과, 배, 감귤, 한라봉, 딸기입니다. 혹시 다른 과일을 주문하시겠습니까?
+
+User: 가족들이 먹을 거라 가능하면 살아 있는 꽃게 위주로 부탁드리며, 암꽃게 비율이 조금 더 많은 박스로 골라 주시면 감사하겠습니다.
+Agent: 죄송합니다. 다시 말씀드리지만, 저희는 과일만 판매하고 있습니다. 꽃게는 판매하지 않습니다. 사과, 배, 감귤, 한라봉, 딸기 중에서 주문하시겠습니까?",4,"{
+  ""items"": [],
+  ""customer_name"": ""김수진"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""서귀포시 중문동 123-4"",
+  ""desired_delivery_date"": null,
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 0
+}","""items"": [
+    {
+      ""quantity"": 1,
+      ""unit"": ""박스"",
+      ""product_name"": ""톱밥꽃게""
+    }
+  ],
+  ""customer_name"": ""김수진"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""서귀포시 중문동 123-4"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"":  가능하면 살아 있는 꽃게 위주로 부탁드리며, 암꽃게 비율이 조금 더 많은 박스
+  ""expected_amount"": 35000",0

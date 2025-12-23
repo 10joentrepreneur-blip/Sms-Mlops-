@@ -1,0 +1,18 @@
+[KOREAN ADDRESS VALIDATION GUIDE]
+
+There are two valid address formats in Korea. A valid address must follow one of these structures AND include a detailed location (like house number or room number).
+
+Format 1: Road Name Address (Standard)
+Structure: (City/Province) (City/County/District) (Road Name) (Building Number) (Detail Address)
+Example: 서울특별시 강남구 테헤란로 123, 삼성빌딩 101호
+Key check: Look for "ro" (로), "gil" (길) in the street name.
+
+Format 2: Lot Number Address (Jibun - Legacy)
+Structure: (City/Province) (City/County/District) (Eup/Myeon/Dong) (Lot Number) (Detail Address)
+Example: 서울특별시 강남구 삼성동 123-45, 101호
+Key check: Look for "dong" (동), "ri" (리), "ga" (가).
+
+[VALIDATION RULES]
+1. **Completeness**: An address is INVALID if it only has the region (e.g. "Seoul", "Busan", "Gangnam-gu"). It MUST descend to the Street/Dong level AND include a specific number.
+2. **Ambiguity**: Inputs like "My house", "Near the station", "123 Street" are INVALID.
+3. **Action**: If the address is incomplete or invalid, DO NOT accept it. Ask the user: "Please provide the full delivery address including the building number or detail."

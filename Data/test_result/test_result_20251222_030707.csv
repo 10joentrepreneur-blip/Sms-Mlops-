@@ -1,0 +1,77 @@
+﻿no,order,turn,predict,label,correct_score
+1.0,ERROR,0,429 Quota exceeded for aiplatform.googleapis.com/generate_content_requests_per_minute_per_project_per_base_model with base model: gemini-experimental. Please submit a quota increase request. https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.,"{
+  ""items"": [
+    {
+      ""quantity"": 3,
+      ""unit"": ""개"",
+      ""product_name"": ""1번 수제 차(유자/생강) 500g (유자/생강)""
+    },
+  ],
+  ""customer_name"": ""윤기율"",
+  ""contact_number"": ""010-3958-5630"",
+  ""delivery_address"": ""부산광역시 해운대구 중앙로 833 333동 620호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 22500
+}",0.0
+2.0,ERROR,0,429 Quota exceeded for aiplatform.googleapis.com/generate_content_requests_per_minute_per_project_per_base_model with base model: gemini-experimental. Please submit a quota increase request. https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.,"{
+  ""items"": [
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""328L 3도어 스탠드김치 147만""
+    },
+  ],
+  ""customer_name"": ""이알뜰"",
+  ""contact_number"": ""010-9876-5432"",
+  ""delivery_address"": ""제주시 노형로 5"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 22500
+}",0.0
+3.0,"User: 권윤율, 오늘 배송해주세요.
+Agent: 오늘 주문하시는군요. 성함이 권윤율 고객님이신가요? 배송 주소와 연락처, 그리고 어떤 상품을 몇 개 주문하시는지 알려주시면 주문을 도와드리겠습니다.
+User: 주소: 경상남도 창원시 성산구 중문관광로 185 1875동 918호
+Agent: 주소를 알려주셔서 감사합니다. 연락처와 주문하시려는 상품, 수량을 알려주시면 주문을 완료할 수 있습니다.
+User: 연락처: 010-6385-2056
+Agent: 연락처 감사합니다. 어떤 상품을 몇 개 주문하시고 싶으신가요?
+User: 주문: 2번 2개, 1번 2개, 3번(매운맛) 1개
+Agent: 수제 딸기잼 2병 2개, 주방칼 2종 세트 2개, 낙곱새 밀키트(2인) (매운맛) 1개 주문이시군요. 오늘 2025-12-22에 경상남도 창원시 성산구 중문관광로 185 1875동 918호로 배송되는 것이 맞으신가요?
+
+User: (부재 시 문앞 부탁드려요.)
+Agent: 알겠습니다. 혹시 주문하시려는 상품이 있으신가요? 상품 번호와 수량을 알려주시면 주문을 도와드리겠습니다.",5,"{
+  ""items"": [],
+  ""customer_name"": null,
+  ""contact_number"": null,
+  ""delivery_address"": null,
+  ""desired_delivery_date"": null,
+  ""special_requests"": null,
+  ""payment_info"": null
+}","{
+  ""items"": [
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""1번 주방칼 2종 세트""
+    },
+    {
+      ""quantity"": 2,
+      ""unit"": ""개"",
+      ""product_name"": ""2번 수제 딸기잼 2병""
+    },
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""3번 낙곱새 밀키트(2인) (매운맛)""
+    }
+  ],
+  ""customer_name"": ""권윤율"",
+  ""contact_number"": ""010-6385-2056"",
+  ""delivery_address"": ""경상남도 창원시 성산구 중문관광로 185 1875동 918호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": (부재 시 문앞 부탁드려요.),
+  ""payment_info"": null,
+  ""expected_amount"": 111200
+}",0.0

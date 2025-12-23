@@ -1,0 +1,104 @@
+﻿no,order,turn,predict,label,correct
+1.0,"User: 상품명: 서민갑부 우거지 감자탕 1개
+Agent: 주문이 업데이트되었습니다. 성함, 연락처, 배송 주소, 희망 배송 날짜를 알려주시겠어요?
+User: 성함: 김기봉
+Agent: 주문이 업데이트되었습니다. 연락처, 배송 주소, 희망 배송 날짜를 알려주시겠어요?
+User: 주소: 제주도 제주시 첨단로 123 101호
+Agent: 주문이 업데이트되었습니다. 연락처와 희망 배송 날짜를 알려주시겠어요?
+User: 핸드폰 번호: 010-1234-5678
+Agent: 주문이 업데이트되었습니다. 희망 배송 날짜를 알려주시겠어요?
+User: 금액: 12,000원
+Agent: 금액은 이미 알고 있습니다. 희망 배송 날짜를 알려주시겠어요?
+User: 입금주명: 김기봉
+Agent: 입금 확인은 입금 후에 가능합니다. 혹시 희망 배송 날짜를 알려주시겠어요?
+User: 배송일: 오늘
+Agent: 김기봉님의 주문 내역은 서민갑부 우거지 감자탕 1개, 배송 주소는 제주도 제주시 첨단로 123 101호, 연락처는 010-1234-5678, 희망 배송 날짜는 2025-12-22 입니다.
+
+확인하시면 ""확인""이라고 말씀해주세요.",7,"{
+  ""items"": [
+    {
+      ""quantity"": 1,
+      ""product_name"": ""서민갑부 우거지 감자탕""
+    }
+  ],
+  ""customer_name"": ""김기봉"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""제주도 제주시 첨단로 123 101호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 0
+}","{""items"": [{""quantity"": 1, ""unit"": ""개"", ""product_name"": ""서민갑부 우거지 감자탕""}], ""customer_name"": ""김기봉"", ""contact_number"": ""010-1234-5678"", ""delivery_address"": ""제주도 제주시 첨단로 123 101호"", ""desired_delivery_date"": ""2025-12-22"", ""expected_amount"": 26000}",3
+2.0,"User: 주문합니다!
+Agent: 어떤 상품을 주문하시겠어요? 상품명과 수량을 말씀해 주세요.
+
+User: 이름: 윤하연
+Agent: 주문자 성함이 윤하연 님이시군요. 연락처도 알려주시겠어요?
+
+User: 연락처: 010-7628-7421
+Agent: 네, 연락처는 010-7628-7421 입니다. 배송 받으실 주소도 알려주시겠어요?
+
+User: 주소: 부산광역시 남구 동문로 245 370호
+Agent: 배송 주소는 부산광역시 남구 동문로 245 370호입니다. 혹시 원하시는 배송 날짜 있으신가요?
+
+User: 상품: 1번(소형세트) 1개
+Agent: 배송 날짜를 알려주시겠어요?
+
+User: 입금자명: 윤하*
+Agent: 입금자명은 나중에 알려주셔도 괜찮습니다. 혹시 배송 날짜는 언제로 하시겠어요?
+
+User: 배송일: 12월 22일
+Agent: 주문 내역은 [락앤락] 스타일 밀폐용기 8종 (소형세트) 1개, 배송 주소는 부산광역시 남구 동문로 245 370호, 배송 희망 날짜는 2025년 12월 22일입니다. 주문자 성함은 윤하연 님, 연락처는 010-7628-7421 입니다. 이대로 주문 확정하시겠습니까?",7,"{
+  ""items"": [
+    {
+      ""quantity"": 1,
+      ""product_name"": ""[락앤락] 스타일 밀폐용기 8종 (소형세트)""
+    }
+  ],
+  ""customer_name"": ""윤하연"",
+  ""contact_number"": ""010-7628-7421"",
+  ""delivery_address"": ""부산광역시 남구 동문로 245 370호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 0
+}","{""items"": [{""quantity"": 1, ""unit"": ""개"", ""product_name"": ""락앤락 스타일 밀폐용기 8종 (소형세트)""}], ""customer_name"": ""윤하연"", ""contact_number"": ""010-7628-7421"", ""delivery_address"": ""부산광역시 남구 동문로 245 370호"", ""desired_delivery_date"": ""2025-12-22"", ""expected_amount"": 29600}",2
+3.0,"User: 안녕하세요, 김수진입니다.
+Agent: 안녕하세요, 김수진님. 무엇을 도와드릴까요?
+
+User: 주소는 서귀포시 중문동 123-4, 연락처는 010-1234-5678입니다.
+Agent: 주소와 연락처를 알려주셔서 감사합니다. 혹시 주문하시려는 상품이 있으신가요?
+
+User: 톱밥꽃게 3kg 내외 1박스 주문합니다.
+Agent: 주문 감사합니다. 톱밥꽃게 3kg 내외 1박스를 주문하셨습니다. 혹시 원하시는 배송 날짜가 있으신가요?
+
+User: 가족들이 먹을 거라 가능하면 살아 있는 꽃게 위주로 부탁드리며, 암꽃게 비율이 조금 더 많은 박스로 골라 주시면 감사하겠습니다.
+Agent: 네, 알겠습니다. 톱밥꽃게 살아있는 것으로, 암꽃게 비율이 조금 더 많은 박스로 최대한 맞춰서 보내드리도록 하겠습니다. 혹시 배송 날짜는 언제로 하시겠습니까?",4,"{
+  ""items"": [],
+  ""customer_name"": null,
+  ""contact_number"": null,
+  ""delivery_address"": null,
+  ""desired_delivery_date"": null,
+  ""special_requests"": null,
+  ""payment_info"": null
+}","{""items"": [{""quantity"": 1, ""unit"": ""박스"", ""product_name"": ""톱밥꽃게""}], ""customer_name"": ""김수진"", ""contact_number"": ""010-1234-5678"", ""delivery_address"": ""서귀포시 중문동 123-4"", ""desired_delivery_date"": ""2025-12-22"", ""expected_amount"": 35000}",0
+99.0,"User: 우유식빵 2개 주세요
+Agent: 주문이 업데이트되었습니다. 성함, 연락처, 배송 주소, 희망 배송 날짜를 알려주세요.
+User: 이름: 김빵집, 주소: 서울 강남구 123, 번호: 010-1234-5678, 배송: 내일
+Agent: 배송 주소가 조금 불완전합니다. 건물 번호나 상세 주소를 포함하여 다시 한번 알려주시겠어요? 예를 들어 ""서울특별시 강남구 테헤란로 123, 삼성빌딩 101호""와 같이 알려주시면 됩니다.
+User: 네
+Agent: 자세한 배송 주소를 알려주시면 감사하겠습니다.",3,"{
+  ""items"": [
+    {
+      ""quantity"": 2,
+      ""product_name"": ""우유식빵""
+    }
+  ],
+  ""customer_name"": ""김빵집"",
+  ""contact_number"": ""010-1234-5678"",
+  ""delivery_address"": ""서울 강남구 123"",
+  ""desired_delivery_date"": ""2025-12-23"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 0
+}","{""items"": [{""quantity"": 2, ""product_name"": ""우유식빵""}]}",1
